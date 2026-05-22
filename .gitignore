@@ -1,12 +1,94 @@
-.DS_Store
-**/__pycache__
-examples/
-.idea/
-.vscode/
-build
-!iopaint/app/build
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
 dist/
-IOPaint.egg-info/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
 venv/
-tmp/
-iopaint/web_app/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm / IntelliJ
+.idea/
+
+# VSCode
+.vscode/
+
+# Models & checkpoints (large binaries)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.trt
+*.engine
+models/
+
+# Torch hub cache
+torch/hub/checkpoints/
+
+# Web app build & deps
+web_app/node_modules/
+web_app/dist/
+web_app/.pnpm-store/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Windows
+*.exe
+*.dll
+*.bat
